@@ -1,0 +1,78 @@
+# macOS特有のファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows特有のファイル
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+System Volume Information/
+
+# openFrameworks関連
+/config.make
+/config.shared.mk
+/libs/openFrameworksCompiled/lib/*
+/libs/openFrameworksCompiled/project/*
+
+# Xcode関連
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad*
+*.mode1v3
+*.pbxuser
+!default.pbxproj
+
+# Visual Studio関連
+*.sdf
+*.suo
+*.VC.db
+*.VC.opendb
+*.ipch
+*.user
+*.ncb
+*.log
+*.tlog
+*.lastbuildstate
+*.filters
+
+# Visual Studio 追加
+.vs/
+
+# バイナリ・実行ファイル
+/obj/
+*.exe
+*.exp
+*.ilk
+*.iobj
+*.ipdb
+*.pdb
+*.app
+*.dSYM/
+*.o
+*.so
+*.a
+assimp64d.lib
+assimp64.lib
+
+# CMake関連
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+CMakeLists.txt.user
+
+# その他の不要ファイル
+*.swp
+*.swo
+*.bak
+*.tmp
+*.lock
+.idea/
+.vscode/
+*.mp4
+*.mov
